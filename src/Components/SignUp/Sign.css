@@ -1,0 +1,392 @@
+.parentSign{
+    width: 100%;
+    height: 100vh;
+    
+  background-size: cover;
+  background-position: center;  
+    
+}
+.netflix{
+padding: 20px;
+margin-left: 10rem;
+height: 45px;
+}
+.navBar{
+   display: flex;
+   align-items: center;
+   
+  
+}
+.signUpButtons{
+    padding-left: 40rem;
+}
+.parentNav{
+    width: 100%;
+        height: 80px;
+    background-color: black;
+    
+} 
+.englishButton{
+    border: none;
+    outline: none;
+    margin-right: 25px;
+    padding: 7px 25px;
+    background: transparent;
+    color:  white;
+  
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    background-color: rgba(51, 51, 51, 1);
+    cursor: pointer;
+   
+
+} 
+.signUpButton{
+    border: none;
+    outline: none;
+    background:red;
+    padding: 7px 20px;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.englishButton img{
+width: 15px;
+margin-left: 10px;
+}
+.englishButton:hover{
+    border: 1px solid #fff ;
+}
+.signUpButton:hover{
+    color: white;
+    background-color: #db0001;
+}
+.signUpBody{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    width: 1110px;
+    margin-left: 20px;
+   
+}
+.oneFourNine{
+    margin-left: 25rem;
+    font-size:50px;
+    font-weight: bolder;
+}
+.hits{
+    font-size:50px;
+    font-weight: bolder;
+}
+.signUpBody h3{
+    margin-left: 160px;
+}
+.join{
+    margin-left: 20rem;
+    font-weight: 500;
+}
+.signUpBody p{
+    margin-left: 13rem;
+    font-weight: 500; 
+    margin-top: 30px;
+    font-size: 20px;
+}
+.signEmail{
+width:420px ;
+height: 53px;
+background-color: rgba(51, 51, 51, 1);
+border-radius: 5px;
+}
+.signEmail input{
+    width: 410px;
+    outline: none;
+    border: none;
+    height: 53px;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 1);
+    border-radius: 5px;
+    color: white;
+ display: inline;
+font-size: 20px;
+padding-left: 10px;
+   
+  
+}
+.signUpBody input::placeholder{
+    color: white;
+    font-size: 16px;
+  
+    padding-left: 4px;
+    font-weight: bold;
+}
+.signUpBody .submit{
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  padding: 15px 80px;
+    font-size: larger;
+    background-color: red;
+    cursor: pointer;
+    font-size:20px;
+color:  white;
+display: inline;
+height: 55px;
+align-items: center;
+}
+.signUpBody button:hover{
+    color: white;
+    background-color: #db0001;
+}
+.signUpBody .signEmail:hover{
+    border: 1px solid #fff;
+    
+    
+}
+.emailForSignUp{
+    margin-left: 10rem;
+    margin-top: 20px;
+  display: flex;
+}
+.inline{
+    
+    color: red;
+    display: none;
+    margin-left: 7px;
+}
+.signEmail input:invalid[focus='true']~.inline{
+    display: block;
+}
+.signEmail input:invalid[focus='true']{
+    border: 2px solid red;
+}
+.signEmail input:valid[focus='true']{
+    border: 2px solid green;
+}
+
+
+.features{
+padding: 50px 12%;
+font-size: 22px;
+} 
+ .row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 50px ;
+    flex-wrap: wrap;
+    color: white;
+} 
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.img-col img{
+    margin: auto;
+    width: 90%;
+    display: block;
+}
+.features h2{
+font-size: 50px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: grey;
+    
+}
+
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  
+}
+.faq h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.accordian{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordian li{
+    list-style: none;
+    padding: 5px;
+    width: 100%;
+}
+.accordian li label{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 20px;
+    background: #303030;
+    cursor: pointer;
+    margin-bottom: 2px;
+    position: relative;
+    
+
+}
+.accordian li label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type='radio']{
+    display: none;
+}
+.accordian .contain{
+      background-color: #303030;    
+      text-align: left;  
+      padding: 0px 20px;  
+       overflow: hidden;   
+       max-height: 0; 
+       transition: max-hight 0.5s, padding 0.8s;                                                                 
+}
+.accordian input[type='radio']:checked + label + .contain{
+max-height: 600px;
+padding: 30px 20px;
+
+}
+.accordian input[type='radio']:checked + label::after{
+    transform: rotate(135deg);
+}
+.contain p{
+font-size: 25px;
+}
+.lastSign{
+align-items: center;
+
+height: 200px;
+margin-top: 50px;
+margin-left: 22rem;
+}
+.lastStart{
+    display: flex;
+    margin-top: 50px;
+}
+.lastSign p{
+    color: white;
+    display: inline;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.lastSign .lastInput{
+    width: 410px;
+    height: 50px;
+    background-color: #303030;
+ border: none;
+ outline: none;
+    border-radius: 5px;
+    
+}
+.lastSign .lastInput input{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 5px;
+   
+
+   
+
+}
+.lastInput input:invalid[focus='true']~ h4{
+  display: block;
+}
+.lastInput input:invalid[focus='true']{
+    border: 2px solid red;
+}
+.lastInput input:valid[focus='true']{
+    border: 2px solid green;
+}
+.lastInput h4{
+color: red;
+display: none;
+}
+.lastButton{
+    background-color: red;
+    color: white;
+    padding: 16px 80px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+.lastButton:hover{
+    background-color: #db0001;
+
+}
+.lastSign .lastInput input::placeholder{
+    font-size: 15px;
+    color: white;
+}
+
+
+.lastSign p{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.footer{
+padding: 50px 12% 20px;
+margin-bottom: 20px;
+color: #777;
+
+}
+.footer h2{
+    font-size: 18px;
+    font-weight:400 ;
+ 
+    
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+  
+} 
+.footer .col a:hover{
+color: white;
+text-decoration: underline;
+}
+ 

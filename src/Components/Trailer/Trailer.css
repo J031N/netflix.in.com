@@ -1,0 +1,52 @@
+.parentTrailer{
+    background-color:#111;
+    width: 100%;
+    height: max-content;
+ 
+}
+
+.trailerImage{
+   height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.trailerNavbar{
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+}
+.trailerContent{
+    padding-top: 222px;
+    padding-left: 20px;
+    color: white;
+    padding-right: 10px;
+    font-family: initial;
+}
+.trailerPlay{
+   position: absolute;
+   left: 150px;
+   width: 30px;
+}
+.trailerDownload{
+    position: absolute;
+   left: 110px;
+   width: 32px;
+}
+.trailerLast{
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 18px;
+}
+.trailerLast  h5{
+    margin-left: 40px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+.trailerLast h5 img{
+margin-bottom: 20px;
+width: 30px;
+top: 27rem;
+margin-right: 40px;
+}

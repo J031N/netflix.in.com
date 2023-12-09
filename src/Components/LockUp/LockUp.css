@@ -1,0 +1,173 @@
+.parentLock{
+width: 85rem;
+height: 62rem;
+background-size: cover;
+background-position: center;
+
+}
+  
+
+.childLock img{
+    padding: 20px;
+    width: 180px;
+    opacity: 2;
+    margin-left: 20px;
+    z-index: 1;
+    position: fixed;
+}
+
+
+.form-wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 40px ;
+    background: rgba(0,0,0,0.7);
+    transform: translate(-50%, -50%);
+   width: 320px;
+  border-radius: 5px;
+  color: white;
+}
+ .form-wrapper h2{
+  color: white;
+  font-size: 2rem;
+ }
+ .form-wrapper form{
+  margin: 25px 0 65px;
+
+ }
+.form-control input{
+ height: 50px;
+ width: 267px;
+ background-color: #333;
+ outline: none;
+ border: none;
+color: white;
+padding: 0 20px;
+
+}
+.parentFormControl  {
+height: 50px;
+margin-bottom: 25px;
+position: relative;
+
+}
+.form-control label{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  color: #8c8c8c;
+  pointer-events: none;
+  font-size: 1.1rem;
+transform: translateY(-50%);
+transition: all 0.2s ease;
+}
+.form-control input:is(:focus,:valid)~label{
+  font-size: 0.9rem;
+  transform: translateY(-130%);
+}
+.lockSubmit{
+  width: 310px;
+  padding: 16px 0;
+background-color: #e50914;
+border: none;
+outline: none;
+font-size: 20px;
+color: #fff;
+font-weight: 500;
+cursor: pointer;
+border-radius: 5px;
+margin: 25px 0 10px;
+transition: all 0.2s ease;
+}
+.lockSubmit:hover{
+  background-color: red;
+}
+.form-help{
+  display: flex;
+  justify-content: space-between;
+}
+.form-wrapper :where(label,a,p,small){
+  color: #b3b3b3;
+}
+.form-help:where(a,label){
+  font-size: 0.9rem;
+}
+.form-help .rememberMe input{
+margin-right: 7px;
+accent-color: green;
+cursor: pointer;
+}
+.form-help .rememberMe{
+  cursor: pointer;
+  display: flex;
+}
+
+.form-wrapper p a{
+  color: #fff;
+}
+.form-wrapper small{
+  display: block;
+  margin-top: 15px;
+}
+.form-wrapper small a{
+  color: #0071eb;
+}
+.form-wrapper a{
+  text-decoration: none;
+}
+.form-wrapper a:hover{
+  text-decoration: underline;
+}
+
+
+.lockFooter{
+  position: absolute;
+  top: 110%;
+  background: rgba(0,0,0,0.7);
+  padding: 50px 12% 10px;
+margin-bottom: 20px;
+color: #777;
+width: 85rem;
+height: 15rem;
+}
+.lockFooter h2{
+  font-size: 18px;
+  font-weight:400 ;
+
+}
+.lockFooter .col{
+  flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+}
+.lockFooter .col a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.lockFooter .row{
+  align-items: flex-start;
+  padding: 15px 0;
+
+} 
+.lockFooter .col a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.parentFormControl span{
+  display: none;
+  }
+.parentFormControl input:invalid[focus='true']~span{
+  display: block;
+}
+.parentFormControl input:invalid[focus='true']{
+  border: 2px solid red;
+}
+.parentFormControl input:valid[focus='true']{
+  border: 2px solid green;
+}

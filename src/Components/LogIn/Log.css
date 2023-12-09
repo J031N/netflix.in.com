@@ -1,0 +1,241 @@
+.container{
+    background-color: white;
+    width: max-content;
+    width: 85rem;
+    height: max-content;
+    
+}
+.logHeader{
+    background-color: white;
+
+    height: 50px;
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+}
+.logHeader img{
+    width: 150px;
+}
+.logHeader h3{
+    margin-left: 66rem;
+   
+}
+.logLine{
+    height: 5px;
+   
+    background-color:whitesmoke;
+}
+.logSign{
+cursor: pointer;
+
+}
+.logSign:hover{
+    text-decoration: underline;
+}
+.logBody{
+    margin-left: 26rem;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.logP{
+    font-size: 13px;
+}
+.logPP{
+    font-size: 20px;
+    margin-top: 15px;
+   
+}
+.logUser{
+    width: 480px;
+    margin-top: 30px;
+    height: 50px;
+  
+}
+.logUser input{
+    width:460px ;
+    padding-left: 15px;
+    height: 50px;
+
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.logEmail{
+    width: 480px;
+    margin-top: 30px;
+    height: 50px;
+  
+}
+.logEmail input{
+    width:460px ;
+    padding-left: 15px;
+    height: 50px;
+
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.logPassword{
+    width: 480px;
+    margin-top: 15px;
+    height: 50px;
+
+}
+
+.logPassword input{
+    width:460px ;
+    padding-left: 15px;
+    height: 50px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.username{
+    font-size: 13px;
+    color: red;
+display: none;
+  
+    
+}
+.reenter{
+    font-size: 13px;
+    color: red;
+display: none;
+  
+    
+}
+.must{
+  display: none;
+    font-size: 13px;
+    color: red;
+}
+.logUser input:invalid[focus='true']~.username{
+    display: block;
+}
+.logUser input:invalid[focus='true']{
+    border: 2px solid red;
+}
+.logUser input:valid[focus='true']{
+    border: 2px solid green;
+}
+.logEmail input:invalid[focus='true']~.reenter{
+    display: block;
+}
+.logEmail input:invalid[focus='true']{
+    border: 2px solid red;
+}
+.logEmail input:valid[focus='true']{
+    border: 2px solid green;
+}
+ 
+.logPassword input:invalid[focus='true']~.must{
+    display: block;
+}
+.logPassword input:invalid[focus='true']{
+    border: 2px solid red;
+}
+.logPassword input:valid[focus='true']{
+    border: 2px solid green ;
+}
+
+
+
+
+
+
+.logBody h2{
+font-size: 17px;
+margin-top: 15px;
+color: blue;
+cursor: pointer;
+}
+.logButton{
+    padding: 20px 205px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #db0001;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.logButton:hover{
+    background-color: red;
+}
+.logFooter{
+    padding: 50px 12% 10px;
+    background-color:#f3f3f3;
+    border-color: 5px solid #e6e6e6;
+   
+}
+.logFooter h2{
+    font-size: 18px;
+    font-weight:400 ;
+    margin-bottom: 30px; 
+}
+.logFooter .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.logFooter .row{
+align-items: flex-start;
+padding: 10px 0;
+}
+.logFooter .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.logUser span{
+    position: absolute;
+    left: 460px;
+    top: 300px;
+    color: black;
+    pointer-events: none;
+    font-size: 16px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+  color: #777;
+}
+.logUser input:is(:focus,:valid)~span{
+    font-size: 12px;
+    transform: translateY(-140%);
+  }
+.logEmail span{
+    position: absolute;
+    left: 460px;
+    top: 380px;
+    color: black;
+    pointer-events: none;
+    font-size: 16px;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+  color: #777;
+}
+.logEmail input:is(:focus,:valid)~span{
+    font-size: 12px;
+    transform: translateY(-130%);
+  }
+.logPassword label{
+    position: absolute;
+    left: 460px;
+    top: 440px;
+    color: black;
+    pointer-events: none;
+    font-size: 17px;
+  transform: translateY(20%);
+  transition: all 0.2s ease;
+  color: #777;
+}
+.logPassword input:is(:focus,:valid)~label{
+    font-size: 13px;
+    transform: translateY(-60%);
+  }
+
+  
