@@ -19,7 +19,7 @@ function App() {
         <Route path='/' element={<SignUp/>}  />
         <Route path='/netflix.in.com' element={<SignUp/>}  />  
         <Route path='/signup' element={<Login/>}/>
-        <Route path='/home' element={<Home/>}/>
+        <Route path='/homepage' element={<Home/>}/>
         <Route path='/signin' element={<Lock/>}/>
         <Route path='/teaser' element={<Teaser/>}/>
         <Route path='/Bteaser' element={<BannerTrailer/>}/>

@@ -15,7 +15,7 @@ function LockUp() {
         console.log(lockPassword);
         firebase.auth().signInWithEmailAndPassword(lockemail,lockPassword).then(()=>{
             alert('logged In')
-            navigate('/netflix.com')
+            navigate('/homepage')
         }).catch((Erro)=>{
             alert('User not exist')
         })

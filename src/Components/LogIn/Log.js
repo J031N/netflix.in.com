@@ -26,7 +26,7 @@ function Log() {
           username:username
         }).then(()=>{
           
-           navigate('/netflix.com')
+           navigate('/homepage')
         })
       })
     })
