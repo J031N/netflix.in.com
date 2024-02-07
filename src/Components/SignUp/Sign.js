@@ -43,7 +43,7 @@ const [focus,setFocus]=useState(false)
         
       </div>
 
-      <div className='parentSign' style={{ backgroundImage: `url(${background})` }}>
+      <div className='parentSign' style={{ backgroundImage:`url(${background})` }}>
         <div className="signUpBody">
           <h1 className='hits'>The biggest Indian hits. Ready to watch here </h1>
           <h1 className='oneFourNine'>from ₹ 149. </h1>

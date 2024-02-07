@@ -5,13 +5,13 @@ import 'firebase/firestore'
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAxCIq9VQhYTwUJx2Ydj01lOUlbltoMV3U",
-    authDomain: "netflixappclone-935e3.firebaseapp.com",
-    projectId: "netflixappclone-935e3",
-    storageBucket: "netflixappclone-935e3.appspot.com",
-    messagingSenderId: "802536654088",
-    appId: "1:802536654088:web:f1b5f0627724fda36c98bd",
-    measurementId: "G-THW9B9T7H3"
+  apiKey: "AIzaSyAw8imXwkZNiFb2VpHqnKR5DlzuqkXs2Fc",
+  authDomain: "netflix2-0-4236d.firebaseapp.com",
+  projectId: "netflix2-0-4236d",
+  storageBucket: "netflix2-0-4236d.appspot.com",
+  messagingSenderId: "95387880363",
+  appId: "1:95387880363:web:b973c4ab976141bad7a0ee",
+  measurementId: "G-2G6KT75MGP"
   };
    export default firebase.initializeApp(firebaseConfig)
 
