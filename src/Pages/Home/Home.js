@@ -3,7 +3,7 @@ import './Home.css'
 import Banner from '../../Components/Banner/Banner'
 import Header from '../../Components/Header/Header'
 import RowPost from '../../Components/RowPost/RowPost'
-import { originals,trending,action,drama,familly,fantacy,history,horror,music, tvMmovie,thriller} from '../../urls'
+import { trending,action,drama,familly,fantacy,history,horror,music, tvMmovie,thriller} from '../../urls'
 import { adventure,animation ,comedy,crime,documentary,mystery,scienceFiction,romance,war,western} from '../../urls'
 function Home() {
   return (

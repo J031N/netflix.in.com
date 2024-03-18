@@ -46,7 +46,7 @@ const [focus,setFocus]=useState(false)
       <div className='parentSign' style={{ backgroundImage:`url(${background})` }}>
         <div className="signUpBody">
           <h1 className='hits'>The biggest Indian hits. Ready to watch here </h1>
-          <h1 className='oneFourNine'>from ₹ 149. </h1>
+          <h1 className='oneFourNine'>from ₹ 199. </h1>
           <h1 className='join'>Join today. Cancel anytime.</h1>
           <p>Ready to watch? Enter your email to create or restart your membership.</p>
           <form action="" className='emailForSignUp'>
